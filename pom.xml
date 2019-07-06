@@ -16,6 +16,7 @@
         <module>changecalculator</module>
         <module>happynumbers</module>
         <module>linkedlist</module>
+        <module>oddnumbers</module>
     </modules>
 
 </project>
