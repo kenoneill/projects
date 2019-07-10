@@ -6,3 +6,5 @@ Sample tests have been added to get you started.
 ## Bonus Material ##
 * Can you do this without using modulo or addition/subtraction/multiplication/division operators.
 * Can you do this using only bitwise operations. 
+* Instead of giving odd numbers between 0 and some limit, instead return the first x number of odd numbers  
+ie if x is 10, instead of odd numbers between 0 and 10, return the first 10 odd numbers. 

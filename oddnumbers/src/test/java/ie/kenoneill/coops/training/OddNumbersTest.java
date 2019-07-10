@@ -23,4 +23,11 @@ public class OddNumbersTest {
         Set<Integer> expectedValues = Stream.of(1,3,5,7,9).collect(Collectors.toSet());
         assertEquals(expectedValues, objUnderTest.oddNumbers(10));
     }
+
+    @Test
+    public void test3(){
+        OddNumbers objUnderTest = new OddNumbers();
+        Set<Integer> expectedValues = Stream.of(1,3,5,7,9,11,13,15,17,19).collect(Collectors.toSet());
+        assertEquals(expectedValues, objUnderTest.oddNumbers_bonus(10));
+    }
 }
