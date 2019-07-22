@@ -41,16 +41,17 @@ public class CountVowelsTest {
         assertEquals(o, objUnderTest.countO());
         assertEquals(u, objUnderTest.countU());
     }
-    @Test
-    @FileParameters("src/test/resources/testDataMultipleVowelsWithCapitals.csv")
-    public void countVowels_multipleVowelsWithCapitals_expectCorrectCountAll(long a, long e, long i, long o, long u, String word){
-        CountVowels objUnderTest = new CountVowels(word);
-        assertEquals(a, objUnderTest.countA());
-        assertEquals(e, objUnderTest.countE());
-        assertEquals(i, objUnderTest.countI());
-        assertEquals(o, objUnderTest.countO());
-        assertEquals(u, objUnderTest.countU());
-    }
+
+//    @Test
+//    @FileParameters("src/test/resources/testDataMultipleVowelsWithCapitals.csv")
+//    public void countVowels_multipleVowelsWithCapitals_expectCorrectCountAll(long a, long e, long i, long o, long u, String word){
+//        CountVowels objUnderTest = new CountVowels(word);
+//        assertEquals(a, objUnderTest.countA());
+//        assertEquals(e, objUnderTest.countE());
+//        assertEquals(i, objUnderTest.countI());
+//        assertEquals(o, objUnderTest.countO());
+//        assertEquals(u, objUnderTest.countU());
+//    }
 
 
 
