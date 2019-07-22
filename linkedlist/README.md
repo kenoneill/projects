@@ -6,7 +6,7 @@ You task, is to write an implementation of a LinkedList. A LinkedList is a data 
 the data and a pointer to the next element, eg
  ![image](Linkedlist.png)
  
-You will need two classes at least, one for the API to the list (call this class LinkedList), plus one to store 
+You will need two classes at least, one for the API to the list (call this class MyLinkedList), plus one to store 
 whatever data is in the List elements (called Node maybe)
 
 Your implementation should consider inserting items at the end of the list only (for the moment) plus printing all
